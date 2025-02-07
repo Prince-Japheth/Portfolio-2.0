@@ -2470,9 +2470,9 @@ ol {
         gap: 25px;
     }
 
-    .info-box.about-services-box .icon-boxes i {
+    /* .info-box.about-services-box .icon-boxes i {
         font-size: 30px;
-    }
+    } */
 
     .resume-area .skills-wrap .skill-items,
     .info-box.about-client-box .clients {
