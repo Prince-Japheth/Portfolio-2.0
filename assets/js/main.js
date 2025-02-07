@@ -25,3 +25,4 @@ var div = document.createElement("div");
     document.body.insertBefore(div,document.body.firstChild),window.onload=function() {
     document.getElementById("preloader").classList.add("off")
 };
+
