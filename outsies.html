@@ -1,0 +1,91 @@
+<div class="skills-wrap">
+    <h2 data-aos="fade-up">Skills</h2>
+    <div class="d-grid skill-items gap-24 flex-wrap">
+        <div class="skill-item" data-aos="zoom-in">
+            <span class="percent">87%</span>
+            <h3 class="name">Adobe XD</h3>
+            <p>Non enim praesent</p>
+        </div>
+    </div>
+</div>
+
+<div class="skills-wrap awards-wrap">
+    <h2 data-aos="fade-up">Awards</h2>
+    <div class="d-grid skill-items gap-24 flex-wrap">
+        <div class="skill-item" data-aos="zoom-in">
+            <span class="percent">14 May 2020</span>
+            <h3 class="name">Bluebase</h3>
+            <p>Non enim praesent</p>
+        </div>
+        <div class="skill-item" data-aos="zoom-in">
+            <span class="percent">26 June 2018</span>
+            <h3 class="name">Demble</h3>
+            <p>Non enim praesent</p>
+        </div>
+
+    </div>
+</div>
+
+<style>
+        .header-area {
+        padding: 20px 0;
+    }
+
+    .header-area .navbar {
+        position: fixed;
+        width: 100%;
+        background: #0F0F0F;
+        z-index: 15;
+        overflow-x: hidden;
+        /* height: 80px; */
+        transform-origin: 50% 50% 0px;
+        top: 0;
+        left: 0;
+        padding-top: 100px;
+        padding-bottom: 24px;
+        justify-content: center;
+        opacity: 0;
+        visibility: hidden;
+        /* max-height: 0; */
+        will-change: transform;
+
+        /* transform: translate3d(0px, -11.4272px, 0px) scale(1, 1) scale(1, 0.945615); */
+        transform: translate3d(0px, -300px, 0px) scale(1, 1) scale(1, 0.945615);
+        transform: translate3d(0px, -300px, 0px) scale(1, 0.5) scale(1, 0.5);
+        transition: .5s
+    }
+
+    .header-area .navbar.active {
+        opacity: 1;
+        visibility: visible;
+        /* height: min-content; */
+        transform: translate3d(0px, 0, 0px) scale(1, 1) scale(1, 1);
+        /* max-height: 90vh; */
+    }
+
+    .header-area .navbar .menu {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .header-area .navbar .menu li a {
+        padding: 0;
+    }
+
+    .header-area .navbar .theme-btn {
+        display: inline-block;
+        margin-top: 48px;
+    }
+
+    .header-area .gx-row>.theme-btn {
+        display: none;
+    }
+
+    .header-area .show-menu {
+        display: flex;
+    }
+</style>
