@@ -1243,13 +1243,6 @@ ol {
     gap: 10px;
 }
 
-@media (max-width: 480px) {
-    .skills2-content-box {
-        display: grid !important;
-        grid-template-columns: repeat(4, 1fr); /* 1 column for mobile */
-    }
-}
-
 .skill-card {
     position: relative;
     background: var(--bg-gradient-jet);
